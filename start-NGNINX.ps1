@@ -1,0 +1,1 @@
+Start-Process -FilePath "C:\Allg\nginx\nginx-1.21.3\nginx.exe" -WorkingDirectory "C:\Allg\nginx\nginx-1.21.3" -NoNewWindow

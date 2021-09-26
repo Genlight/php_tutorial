@@ -1,5 +1,6 @@
 # Github erklären
 
-* generelle Funktionen
+* generelle Funktionen erklären
+* SSH Keys hinzufügen
 * Konto einrichten
-* lokales Projekt einrichten
+* Projekt klonen (`git clone <project-name>`)
