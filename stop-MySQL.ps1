@@ -1,0 +1,1 @@
+Stop-Service MySQL80 -ev 4

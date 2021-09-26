@@ -15,3 +15,8 @@
 
 ### Webserverautomatisierung 
 s. https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/
+
+## Starten der Server
+* NGINX starten: `powershell -f .\start-NGINX.ps1`
+* PHP-cgi starten: `powershell -f .\start-PHPCGI.ps1`
+* MYSQL Datenbank starten: `powershell -f .\start-MySQL.ps1`
