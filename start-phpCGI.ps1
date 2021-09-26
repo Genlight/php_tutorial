@@ -1,0 +1,1 @@
+Start-Process -FilePath 'C:\Program Files\PHP\php-cgi.exe' -ArgumentList "-b 127.0.0.1:9000" -WorkingDirectory 'C:\Program Files\PHP'-NoNewWindow
