@@ -1,6 +1,10 @@
 # Git
 Wissenswertes zu GIT und Erklärungen zu den meisten Befehlen gibt's unter: https://lerneprogrammieren.de/git/
 
+## Git-Konfiguration
+* `git config --global user.name <name>`
+* `git config --global user.email <email>`
+
 # Windows Powershell
 allgemeine Befehle, die im jedem Terminal gleich funktionieren (auch in Linux):
 
