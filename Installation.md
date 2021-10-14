@@ -20,3 +20,6 @@ s. https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindow
 * NGINX starten: `powershell -f .\start-NGINX.ps1`
 * PHP-cgi starten: `powershell -f .\start-PHPCGI.ps1`
 * MYSQL Datenbank starten: `powershell -f .\start-MySQL.ps1`
+
+## MYSQL Installation
+https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html
