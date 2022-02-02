@@ -1,4 +1,4 @@
-# Tutorial für einen jungen Studenten in HTML + PHP
+# Tutorial für einen jungen Studenten in HTML + PHP + SQLite
 
 Anleitung zu der Installation der Entwicklungsumgebung unter Windows10 wird in [.\Installation.md]
 
