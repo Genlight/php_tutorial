@@ -9,7 +9,7 @@
 </head>
 <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>OceanHonkis Community Server</h1>
-  <a href="#"><sapn style="color:aqua;">Über uns</sapn></a>
+  <a href="#"><span style="color:aqua;">Über uns</span></a>
   <a href="#"><span style="color:red;">Updates</span></a>
   <A href="#"><span style="color:blue;">Team</span></a>
   </div> 
@@ -75,7 +75,7 @@
       <h3><span style="color: red;">Als was möchtest du dich bewerben?</span></h3>
       <p>Du kannst dich als Supporter und als Partner bewerben.</p>
         
-      <form action="/action_page.php" class="was-validated">
+      <form action="save_in_db.php" class="was-validated" method="POST">
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label"><span style="color: black;">Discord Name:</span></label>
           <input type="text" class="form-control" id="uname" placeholder="Dein Discord Name" name="uname" required>
@@ -84,7 +84,7 @@
         </div>
         <div class="mb-3">
           <label for="email" class="form-label"><span style="color: black;">Email Adresse:</span></label>
-          <input type="adresse" class="form-control" id="pwd" placeholder="Deine Email Adresse" name="adresse" required>
+          <input type="email" class="form-control" id="email" placeholder="Deine Email Adresse" name="email" required>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Bitte fülle dieses Feld aus.</div>
         </div>
@@ -94,7 +94,7 @@
           <div class="valid-feedback">Angenommen</div>
           <div class="invalid-feedback">Bitte fülle die Felder aus um zustimmen zu können!</div>
         </div>
-      <button type="Abschicken" class="btn btn-primary">Abschicken</button>
+      <button type="submit" class="btn btn-primary">Abschicken</button>
       </form>
     </div>
 </div>
