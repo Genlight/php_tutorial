@@ -2,9 +2,6 @@
 <html>
     <body>
         <?php
-// $servername = "localhost";
-// $username = "username";
-// $password = "password";
 
 $dbFile = $_SERVER['DOCUMENT_ROOT']."test.sqlite";
 
@@ -17,11 +14,8 @@ $db-> exec("CREATE TABLE IF NOT EXISTS $table(
     email TEXT
     )");
 
-// $username = $_POST ["uname"];
-// $email = $_POST ['email'];
-$username = "alex";
-$email = 'a.a@gmeil.com';
-
+$username = $_POST ["uname"];
+$email = $_POST ['email'];
 
 $db->exec("INSERT INTO $table (
     username, 
