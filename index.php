@@ -9,6 +9,7 @@
 </head>
 <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>OceanHonkis Community Server</h1>
+  <h2><span style="color: cyan;">Besucher: <?php ?></span></h2>
   <a href="#"><span style="color:aqua;">Über uns</span></a>
   <a href="#"><span style="color:red;">Updates</span></a>
   <A href="#"><span style="color:blue;">Team</span></a>
@@ -74,6 +75,7 @@
     <div class="container mt-3">
       <h3><span style="color: red;">Als was möchtest du dich bewerben?</span></h3>
       <p>Du kannst dich als Supporter und als Partner bewerben.</p>
+      <span style="color: red;">Ist noch in Testphase!</span>
         
       <form action="save_in_db.php" class="was-validated" method="POST">
         <div class="mb-3 mt-3">
@@ -101,6 +103,7 @@
 <div id="Links" class="container-fluid bg-success text-white" style="padding:100px 20px;">
   <h1>Links</h1>
   <p>Hier kommen Links zum Server</p>
+  <h1><span style="color: red;">Kommt bald!!</span></h1>
 </div>
 </body>
 </html>
