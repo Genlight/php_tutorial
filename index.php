@@ -9,7 +9,7 @@
 </head>
 <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>OceanHonkis Community Server</h1>
-  <h2><span style="color: cyan;">Besucher: <?php include 'get_counter.php'; ?></span></h2>
+  <h2><span style="color: cyan;">Besucher: <?php include 'php/get_counter.php'; ?></span></h2>
   <a href="#"><span style="color:aqua;">Über uns</span></a>
   <a href="#"><span style="color:red;">Updates</span></a>
   <A href="#"><span style="color:blue;">Team</span></a>
@@ -77,7 +77,7 @@
       <p>Du kannst dich als Supporter und als Partner bewerben.</p>
       <span style="color: red;">Ist noch in Testphase!</span>
         
-      <form action="save_in_db.php" class="was-validated" method="POST">
+      <form action="php/save_in_db.php" class="was-validated" method="POST">
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label"><span style="color: black;">Discord Name:</span></label>
           <input type="text" class="form-control" id="uname" placeholder="Dein Discord Name" name="uname" required>

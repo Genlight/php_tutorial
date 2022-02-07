@@ -3,9 +3,8 @@
     <body>
         <?php
 
-$dbFile = $_SERVER['DOCUMENT_ROOT']."test.sqlite";
+include_once "db.php";
 
-$db = new SQLite3("$dbFile");
 $table = "users";
    
 $db-> exec("CREATE TABLE IF NOT EXISTS $table(
