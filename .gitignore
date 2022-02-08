@@ -2,4 +2,4 @@
 
 test.sqlite
 test.sqlite-journal
-temp/
+temp
