@@ -9,7 +9,7 @@
 </head>
 <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>OceanHonkis Community Server</h1>
-  <h2><span style="color: cyan;">Besucher: <?php include 'php/get_counter.php'; ?></span></h2>
+  <h2><span style="color: cyan;">Besucher: <?php include 'php/get_counter.php' ?></span></h2>
   <a href="#"><span style="color:aqua;">Über uns</span></a>
   <a href="#"><span style="color:red;">Updates</span></a>
   <A href="#"><span style="color:blue;">Team</span></a>
