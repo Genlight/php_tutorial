@@ -2,12 +2,9 @@
 <html>
     <body>
         <?php
-            $empf = "themiddnightarmy@gmail.com";
-            $betreff = "Bewerbung von: " . $_POST ['uname'];
-            $text = $_POST['uname'] . " - email: " .$_POST ['email'];
-
-            mail ($empf, $betreff, $text);
-            echo "Email gesendet";
+        if(isset($_POST["Anmeldung"])){
+            mail("johannes.erlbeck@gmail.com", "Anmeldungsformular", "Discord Name: ".$_POST["discord name"]. 'Email Adresse: '.$_POST["email"].'Auswahlmöglichkeiten: '.$_POST["auswahlmöglichkeiten"]. 'Text: '.$_POST["text"]);
+        }
         ?>
     </body>
 </html>
