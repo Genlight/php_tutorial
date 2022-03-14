@@ -1,5 +1,5 @@
 Write-Host "Kopiere PHP-ini config"
-cp $PSScriptRoot\..\nginx.conf 'C:\Allg\nginx\nginx-1.21.3\nginx.conf'
+cp $PSScriptRoot\..\nginx.conf 'C:\Allg\nginx\nginx-1.21.3\conf\nginx.conf'
 
 Write-Host "Starte den NGINX-server neu..."
 

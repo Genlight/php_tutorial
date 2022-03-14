@@ -85,7 +85,7 @@
   <option>Probe Supporter</option>
   <option>Partner</option>
 </select>   
-      <form action="php/save_in_db.php" class="was-validated" method="POST">
+      <form action="senden.php" class="was-validated" method="POST">
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label"><span style="color: black;">Discord Name:</label>
           <input type="text" class="form-control" id="uname" placeholder="Dein Discord Name" name="uname" required>

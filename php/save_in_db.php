@@ -24,7 +24,6 @@ $db->exec("INSERT INTO $table (
 
 echo("folgende Werte wurden in die DB eingefügt" );
 echo("email: $email | username: $username");
-
 ?>     
 </body>
 </html>
