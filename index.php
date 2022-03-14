@@ -5,33 +5,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link type="text/css" href="style.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>OceanHonkis Community Server</h1>
-  <h2><span style="color: cyan;">Besucher: <?php include 'php/get_counter.php' ?></span></h2>
-  <a href="#"><span style="color:aqua;">Über uns</span></a>
-  <a href="#"><span style="color:red;">Updates</span></a>
-  <A href="#"><span style="color:blue;">Team</span></a>
+  <h2>Besucher: <?php include 'php/get_counter.php' ?></h2>
+  <a href="#">Über uns</a>
+  <a href="#">Updates</a>
+  <A href="#">Team</a>
   </div> 
 </div>
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4">
-      <h3><span style="color:rgb(0, 255, 213);">Über uns</span></h3>
+      <h3>Über uns</h3>
       <p>Wir sind ein Community Server auf Discord</p>
     </div>
     <div class="col-sm-4">
-      <h3><span style="color:red;">Updates</span></h3>
+      <h3>Updates</h3>
       <p>3 eigene Bots:</p>
         <p>Ideen Bot, Global Bot und ein Community Bot</p>
     </div>
     <div class="col-sm-4">
-      <h3><span style="color: blue;">Team</span></h3>        
+      <h3>Team</h3>        
       <p>Owner     | OceanHonki</p>
       <p>Co-Owner  | Johannamontana</p>
-      <p>Techniker | Niclas03</p>
+      <p>Admin     | Niclas03</p>
       <p>Admin     | Kitti</p>
+      <p>T-Techniker | FINN²</p>
+      <p>P-Sup     | Marian5478</p>
     </div>
   </div>
 </div>
@@ -71,39 +74,67 @@
 <div id="Teambewerbung" class="container-fluid bg-warning" style="padding:100px 20px;">
   <h1>Team Bewerbung</h1>
   <div id="Team Bewerbung" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
-    <h1><span style="color: green;">Bewerbung</span></h1>
+    <h1>Bewerbung</h1>
     <div class="container mt-3">
-      <h3><span style="color: red;">Als was möchtest du dich bewerben?</span></h3>
-      <p>Du kannst dich als Supporter und als Partner bewerben.</p>
+
       <span style="color: red;">Ist noch in Testphase!</span>
-        
+
+      <h3><span style="color: black;">Hier kannst du auswählen, ob du dich als Supporter, Techniker und als Partner bewerben möchtest.</span></h3>
+      <select class="form-select">
+  <option>Techniker</option>
+  <option>Probe Supporter</option>
+  <option>Partner</option>
+</select>   
       <form action="php/save_in_db.php" class="was-validated" method="POST">
         <div class="mb-3 mt-3">
-          <label for="uname" class="form-label"><span style="color: black;">Discord Name:</span></label>
+          <label for="uname" class="form-label"><span style="color: black;">Discord Name:</label>
           <input type="text" class="form-control" id="uname" placeholder="Dein Discord Name" name="uname" required>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Bitte fülle dieses Feld aus.</div>
         </div>
         <div class="mb-3">
-          <label for="email" class="form-label"><span style="color: black;">Email Adresse:</span></label>
+          <label for="email" class="form-label"><span style="color: black;">Email Adresse:</label>
           <input type="email" class="form-control" id="email" placeholder="Deine Email Adresse" name="email" required>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Bitte fülle dieses Feld aus.</div>
         </div>
-        <div class="form-check mb-3">
-          <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
-          <label class="form-check-label" for="myCheck">Ich stimme zu.</label>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="container mt-3">
+  <h2><span style="color: black;">Warum sollen wir dich nehmen?</span></h2>
+  <form action="/action_page.php">
+    <div class="form-floating mb-3 mt-3">
+      <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+      <span style="color: black;"><label for="text">Text</label></span>
+    </div>
+  </form>
+</div>
           <div class="valid-feedback">Angenommen</div>
           <div class="invalid-feedback">Bitte fülle die Felder aus um zustimmen zu können!</div>
-        </div>
-      <button type="submit" class="btn btn-primary">Abschicken</button>
-      </form>
-    </div>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1><span style="color: red;"class="offcanvas-title">Anmeldung</span></h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+       <span style="color: black;">Du wurdest erfolgreich angemeldet. Warte bitte, bis sich ein Teammitglied bei dir meldet!</span>
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Anmeldung
+  </button>
+</div>
 </div>
 <div id="Links" class="container-fluid bg-success text-white" style="padding:100px 20px;">
   <h1>Links</h1>
   <p>Hier kommen Links zum Server</p>
-  <h1><span style="color: red;">Kommt bald!!</span></h1>
+  <h1><span style="color: red;">Kommt bald!!</h1>
 </div>
 </body>
 </html>
