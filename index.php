@@ -85,7 +85,7 @@
   <option>Probe Supporter</option>
   <option>Partner</option>
 </select>   
-      <form action="senden.php" class="was-validated" method="POST">
+      <form action="php/senden.php" class="was-validated" method="POST">
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label"><span style="color: black;">Discord Name:</label>
           <input type="text" class="form-control" id="uname" placeholder="Dein Discord Name" name="uname" required>
@@ -105,9 +105,13 @@
   <h2><span style="color: black;">Warum sollen wir dich nehmen?</span></h2>
   <form action="/action_page.php">
     <div class="form-floating mb-3 mt-3">
-      <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+      <textarea class="form-control" id="comment" name="comment" placeholder="Comment goes here"></textarea>
       <span style="color: black;"><label for="text">Text</label></span>
     </div>
+
+    <button class="btn btn-primary" type="submit">
+    Anmeldung
+  </button>
   </form>
 </div>
           <div class="valid-feedback">Angenommen</div>
@@ -115,21 +119,21 @@
           <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <div class="offcanvas offcanvas-start" id="demo">
+  <!-- <div class="offcanvas offcanvas-start" id="demo">
   <div class="offcanvas-header">
     <h1><span style="color: red;"class="offcanvas-title">Anmeldung</span></h1>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
   </div>
   <div class="offcanvas-body">
        <span style="color: black;">Du wurdest erfolgreich angemeldet. Warte bitte, bis sich ein Teammitglied bei dir meldet!</span>
-  </div>
+  </div> -->
 </div>
 
-<div class="container-fluid mt-3">
+<!-- <div class="container-fluid mt-3">
   <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
     Anmeldung
   </button>
-</div>
+</div> -->
 </div>
 <div id="Links" class="container-fluid bg-success text-white" style="padding:100px 20px;">
   <h1>Links</h1>
@@ -137,4 +141,4 @@
   <h1><span style="color: red;">Kommt bald!!</h1>
 </div>
 </body>
-</html>
+</html> 
